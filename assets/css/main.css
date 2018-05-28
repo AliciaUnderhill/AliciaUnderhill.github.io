@@ -3023,6 +3023,7 @@
 				height: 7em;
 			}
 
+
 		/* Footer */
 
 			#footer {
@@ -3124,4 +3125,34 @@
 				padding: 0;
 			}
 
+	}
+
+	/* Four */
+	ul.education-list{
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	ul.education-list li{
+		display: flex;
+		margin-top: 30px;
+	}
+
+	ul.education-list img{
+		height: 90px;
+		width: 90px;
+	}
+
+	ul.education-list h4 {
+		margin-bottom: 5px;
+	}
+
+	ul.education-list p{
+		margin: 2px 0;
+
+	}
+
+	.ed-info{
+		margin-left: 12px;
 	}
