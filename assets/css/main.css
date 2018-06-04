@@ -1990,6 +1990,10 @@
 			display: none;
 		}
 
+		.contact-label{
+			display: block;
+		}
+
 /* Image */
 
 	.image {
@@ -2136,10 +2140,13 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			display: flex;
+			/* flex-direction: vertical; */
 		}
 
 			ul.icons li {
-				display: inline-block;
+				/* display: inline-block; */
+				display: flex;
 				padding: 0 1em 0 0;
 			}
 
@@ -2150,6 +2157,7 @@
 				ul.icons li .icon:before {
 					font-size: 1.25em;
 				}
+
 
 		ul.actions {
 			cursor: default;
