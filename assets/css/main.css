@@ -2659,6 +2659,28 @@ ul.icons {
 		font-size: 25px;
 	}
 
+	#download{
+		margin-bottom: 10px;
+	}
+
+	.resume-portfolio-icons{
+		list-style: none;
+		display: flex;
+		padding: 0;
+	}
+
+	.resume-portfolio-icons li{
+		padding-left: 12px;
+	}
+
+	.resume-portfolio-icons li:first-of-type{
+		padding-left: 0;
+	}
+
+	.resume-portfolio-icons a{
+		font-size: 25px;
+	}
+
 /* Wrapper */
 
 	#wrapper {
